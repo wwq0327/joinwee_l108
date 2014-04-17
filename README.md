@@ -12,3 +12,7 @@
 - Fork [joinwee_l108][1]。
 - Clone你Fork的仓库到你的电脑。
 - 在你的电脑上修改`xiuyou.md`文件，并同步到github。
+
+## 简明教程
+
+<http://rogerdudler.github.io/git-guide/index.zh.html>
