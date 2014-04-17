@@ -32,26 +32,25 @@ $ git push origin master
 
 步骤如下：
 
-1. 添加源仓库作为你的第二仓库：
-
+- 添加源仓库作为你的第二仓库：
 `$ git remote add upstream https://github.com/wwq0327/joinwee_l108.git`
 
 添加成功后，你可以查看下仓库情况：
 
 ![](http://ww3.sinaimg.cn/large/603daed6gw1efijw7tiyvj20bo01rt8u.jpg)
 
-2. 更新到本地：`git fetch upstream`
+- 更新到本地：`git fetch upstream`
 
-3. 与你的仓库进行合并：`git merge  upstream/master`
+- 与你的仓库进行合并：`git merge  upstream/master`
 
 这步操作之后，你本地仓库内容就和源仓库一个样了。
 
-4. 将你本地内容push到你的github仓库里。
+- 将你本地内容push到你的github仓库里。
 
 ```
 $ git push origin master
 ```
 
-** 我们建议：每次你在开始更新你仓库内容的时候，都先执行一下第2，3两步，这样保证你的内容是与源库一样的。**
+**我们建议：每次你在开始更新你仓库内容的时候，都先执行一下第2，3两步，这样保证你的内容是与源库一样的。**
 
 

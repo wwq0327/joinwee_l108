@@ -23,18 +23,20 @@
 
 ## 小技巧
 
-1. 如何不用每次提交都要求输入帐号及密码？
+### 如何不用每次提交都要求输入帐号及密码？
 A：当我们使用https协议时，每次更改都需要输入帐号及密码及进行验证。为了省略这个事，你可以输入下面的命令：
 
-`git config --global credential.helper store`
+```
+$git config --global credential.helper store
+```
 
 更详细说明，请看里：
 
 <http://git.oschina.net/oschina/git-osc/issues/2586>
 
-2. 编辑工具：MarkdownPad
+### 编辑工具：MarkdownPad
 
-.md其实就是一个文本文件，只是内容里面使用了不一样的语法而已。如果你在Windows参与我们的研修课程，你就不得不自己准备一个编辑器了。因为Windows上常 用的记事本或是Word类的工具是不适合编辑文本文件的。
+.md其实就是一个文本文件，只是内容里面使用了不一样的语法而已。如果你在Windows参与我们的研修课程，你就不得不自己准备一个编辑器了。因为Windows上常用的记事本或是Word类的工具是不适合编辑文本文件的。
 
 这里我们为Windows学友们推荐使用`MarkdownPad 2`这个编辑器。你可以到这里去下载：
 
