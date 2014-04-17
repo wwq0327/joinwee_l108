@@ -13,6 +13,10 @@
 - Clone你Fork的仓库到你的电脑。
 - 在你的电脑上修改`xiuyou.md`文件，并同步到github。
 
+## 推荐案例
+
+关于如何在线协作，进行共创，我们收集到`anli.md`文件中，你可以在github上到处看看，找一些有意思的内容，交添加到这个文件中来。
+
 ## 简明教程
 
 <http://rogerdudler.github.io/git-guide/index.zh.html>
