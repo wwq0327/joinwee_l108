@@ -1,6 +1,12 @@
 # git基本操作
 
 ## 配置
+添加用户信息：
+
+```bash
+$ git config --global user.name "YOUR_NAME"
+$ git config --blobal user.email "YOUR_EMIL"
+```
 
 ## fork 及同步
 
