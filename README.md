@@ -20,3 +20,14 @@
 ## 简明教程
 
 <http://rogerdudler.github.io/git-guide/index.zh.html>
+
+## 小技巧
+
+1. 如何不用每次提交都要求输入帐号及密码？
+A：当我们使用https协议时，每次更改都需要输入帐号及密码及进行验证。为了省略这个事，你可以输入下面的命令：
+
+`git config --global credential.helper store`
+
+更详细说明，请看里：
+
+<http://git.oschina.net/oschina/git-osc/issues/2586>
