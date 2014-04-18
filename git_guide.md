@@ -3,8 +3,13 @@
 ## 目录
 
 * [引言](#引言)
+* [准备工作](#准备工作)
+* [git与github](#git与github)
 * [安装及配置](#安装及配置)
-
+* [fork及同步](#fork及同步)
+* [编辑并提交修改](#编辑并提交修改)
+* [请求与源仓库合并](#请求与源仓库合并)
+* [研修资料](#研修资料)
 ----
 
 ## 引言
@@ -155,7 +160,7 @@ $ git push origin master
 
 这步操作之后，你本地仓库内容就和源仓库一个样了。这步部份操作，你也可以阅读下github上关于fork的帮助：<https://help.github.com/articles/fork-a-repo>
 
-## 编辑提交修改
+## 编辑并提交修改
 
 得到内容之后，你就可以在本地进行内容的编辑了。编辑完成之后，你可以使用以下命令将内容同步到你的仓库里：
 
@@ -217,7 +222,11 @@ Your branch is up-to-date with 'origin/master'.
 nothing to commit, working directory clean
 ```
 
-这表示你的仓库没有作任何修改，或是内容已完全提交了。
+这表示你的仓库没有作任何修改，或是内容已完全提交了。而你的每次修改与提交，github都会为你记录下来，如：
+
+![](http://ww4.sinaimg.cn/large/603daed6gw1efjsgiza2rj20m806xwf8.jpg)
+
+其中红色部份为修改之前的内容，绿色部份为修改后的内容。具体样式，可以看看[这里](https://github.com/wwq0327/joinwee_l108/commit/6ee7b4705198f1c198298445e2bd2997d7db0c2c)。
 
 但如果你发现有个文件内容你改错了，想反悔了，怎么办呢？你不去跑回去再把文件内容改过来，只需这样作就成了，比如我们想把READMD.md这个文件恢复到未修改之前的状态：
 
