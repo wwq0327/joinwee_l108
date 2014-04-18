@@ -255,7 +255,7 @@ $ git chechout -- README.md
 
 ## 请求与源仓库合并
 
-这些修改只是同步到了你的仓库里，但如果要将修改提交到[wwq0327/joinwee_l108](https://github.com/wwq0327/joinwee_l108)这个源仓库怎么办呢？
+这些修改只是同步到了你的仓库里，但如果要将修改提交到[源仓库](https://github.com/wwq0327/joinwee_l108)这个源仓库怎么办呢？
 
 首先，你需要回到github上你Fork的仓库里，在右边栏，你可以看到“Pull Requests”字样，点击进去，再点击“New pull request”，如果你是作了修改的，那么，填写上相应内容，点击提交就成了。这时，源仓库的创建者就会收到你发出的合并请求。
 
@@ -264,4 +264,4 @@ $ git chechout -- README.md
 ![](http://ww1.sinaimg.cn/large/603daed6gw1efjsyvk9q4j20m8044jrr.jpg)
 
 ## 研修资料
-- [《Pro Git](http://iissnan.com/progit/index.html)
+- [《Pro Git](http://iissnan.com/progit/index.html)》
