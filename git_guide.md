@@ -9,7 +9,7 @@
 
 ## 引言
 
-可能git或是github这些名词出现在我们普通人眼中的时候，觉得这些内容都只是属于程序员们的，而对我们来说，我只需要能拿着鼠标浏览一些内容，再使用Word之类打点字，排个版，出点内容就成了。没有必要搞这些看似很Geeker的内容。
+可能git或是github这些名词出现在我们普通人眼中的时候，觉得这些内容都只是属于程序员们的，而对我们来说，我只需要能拿着鼠标浏览一些内容，再使用Word之类打点字，排个版，输入点内容就成了。没有必要搞这些看似很Geeker的内容。
 
 而git除了是一种很棒的技术之外，更重要的是的理念。可能我们习惯了，一个中心，然后所有内容都围绕这个中心进行的习惯，而git告诉我们，世界其实不应该是这样的，我们每个个体都是特别的、独一无二的，消除中心，让我们每个人都成为网的中心。然后再将我们所有的个体力量进行彼此集中，从而增强我们每个个体的力量。
 
@@ -155,7 +155,7 @@ $ git push origin master
 
 这步操作之后，你本地仓库内容就和源仓库一个样了。这步部份操作，你也可以阅读下github上关于fork的帮助：<https://help.github.com/articles/fork-a-repo>
 
-**编辑提交修改**
+## 编辑提交修改
 
 得到内容之后，你就可以在本地进行内容的编辑了。编辑完成之后，你可以使用以下命令将内容同步到你的仓库里：
 
@@ -179,7 +179,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 如果你看到类似内容的话，表示你现在的修改还没有提交到仓库中来。你可以使用`git diff`这个仓库查看下，你到底进行了一些什么样的修改：
 
 ```bash
-t$ git diff
+$ git diff
 diff --git a/README.md b/README.md
 index 57ae86d..78c78fd 100644
 --- a/README.md
@@ -207,6 +207,18 @@ $ git push origin master
 # 推到github
 ```
 
+这里你再次查看仓库状态时，会这样显示：
+
+```bash
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+```
+
+这表示你的仓库没有作任何修改，或是内容已完全提交了。
+
 但如果你发现有个文件内容你改错了，想反悔了，怎么办呢？你不去跑回去再把文件内容改过来，只需这样作就成了，比如我们想把READMD.md这个文件恢复到未修改之前的状态：
 
 ```bash
@@ -215,7 +227,7 @@ $ git chechout -- README.md
 
 > 我们建议，你每作一次修改，你就可以停下来，`git add .`和`git commit -m "f"`一次，这样保证你能回到任何一个你之前修改的地方。
 
-**请求与源仓库合并**
+## 请求与源仓库合并
 
 这些修改只是同步到了你的仓库里，但如果要将修改提交到[wwq0327/joinwee_l108](https://github.com/wwq0327/joinwee_l108)这个源仓库怎么办呢？
 
