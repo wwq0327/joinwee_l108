@@ -12,6 +12,9 @@
 - Fork [joinwee_l108][1]。
 - Clone你Fork的仓库到你的电脑。
 - 在你的电脑上修改`xiuyou.md`文件，并同步到github。
+- Follow学友。点击`xiuyou.md`文件中的学友链接，击点右上的`Follow`相互关注。
+- 修改并同步到你的github仓库中。
+- 将你的内容合并到源库中来。
 
 ## 推荐案例
 
