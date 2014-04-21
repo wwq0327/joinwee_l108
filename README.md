@@ -26,18 +26,6 @@
 
 <http://rogerdudler.github.io/git-guide/index.zh.html>
 
-## 小技巧
-
-### 如何不用每次提交都要求输入帐号及密码？
-A：当我们使用https协议时，每次更改都需要输入帐号及密码及进行验证。为了省略这个事，你可以输入下面的命令：
-
-```
-$git config --global credential.helper store
-```
-
-更详细说明，请看里：
-
-<http://git.oschina.net/oschina/git-osc/issues/2586>
 
 ## 编辑工具
 
@@ -67,4 +55,16 @@ C:\Documents and Settings\USER_NAME
 
 三个平台，你都可以使用一下`Sublime`这个软件，但如果你初次使用的话，可以会觉得有些太过于复杂了。
 
+## 小技巧
+
+### 如何不用每次提交都要求输入帐号及密码？
+A：当我们使用https协议时，每次更改都需要输入帐号及密码及进行验证。为了省略这个事，你可以输入下面的命令：
+
+```
+$git config --global credential.helper store
+```
+
+更详细说明，请看里：
+
+<http://git.oschina.net/oschina/git-osc/issues/2586>
 
