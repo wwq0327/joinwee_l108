@@ -16,6 +16,8 @@
 - 修改并同步到你的github仓库中。
 - 将你的内容合并到源库中来。
 
+我们准备的[操作手册](git_guide.md)正是在讲如何使用Github进行合作的事，所以你可以一直关注这个手册的内容，当然你有想法，也可以更新进来。
+
 ## 推荐案例
 
 关于如何在线协作，进行共创，我们收集到`anli.md`文件中，你可以在github上到处看看，找一些有意思的内容，交添加到这个文件中来。
@@ -37,7 +39,17 @@ $git config --global credential.helper store
 
 <http://git.oschina.net/oschina/git-osc/issues/2586>
 
-### 编辑工具：MarkdownPad
+## 编辑工具
+
+** Linux **
+
+如果你使用的是Linux那你可以试用下Gedit，这个是很简单的文本编辑器，需果需要支持语法高亮的话，那你么需要Google一下，找找插件。
+
+** Mac OS X **
+
+如果你使用的是Mac OS X操作系统，你可以尝试使用一下`Mou`这个Markdown编辑器。
+
+** Windows **
 
 .md其实就是一个文本文件，只是内容里面使用了不一样的语法而已。如果你在Windows参与我们的研修课程，你就不得不自己准备一个编辑器了。因为Windows上常用的记事本或是Word类的工具是不适合编辑文本文件的。
 
@@ -51,6 +63,8 @@ $git config --global credential.helper store
 C:\Documents and Settings\USER_NAME
 ```
 
-后面的USER_NAME为你的登录名，你可以在我的电脑-C：中找到。
+后面的`USER_NAME`为你的登录名，你可以在`C:\`目录中找到。
+
+三个平台，你都可以使用一下`Sublime`这个软件，但如果你初次使用的话，可以会觉得有些太过于复杂了。
 
 
