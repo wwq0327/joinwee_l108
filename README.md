@@ -41,15 +41,15 @@ $git config --global credential.helper store
 
 ## 编辑工具
 
-** Linux **
+**Linux**
 
 如果你使用的是Linux那你可以试用下Gedit，这个是很简单的文本编辑器，需果需要支持语法高亮的话，那你么需要Google一下，找找插件。
 
-** Mac OS X **
+**Mac OS X**
 
 如果你使用的是Mac OS X操作系统，你可以尝试使用一下`Mou`这个Markdown编辑器。
 
-** Windows **
+**Windows**
 
 .md其实就是一个文本文件，只是内容里面使用了不一样的语法而已。如果你在Windows参与我们的研修课程，你就不得不自己准备一个编辑器了。因为Windows上常用的记事本或是Word类的工具是不适合编辑文本文件的。
 
